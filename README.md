@@ -85,11 +85,10 @@ WHERE
 ```SQL
                SELECT * FROM sales where sale_date = '2022-11-05';
 ```
-
-    2 Write a sql query to retrieve all the transaction where the category is 'clothing' and 
-     the quantity sold is more than 4 in the month of Nov-2022 
+2 Write a sql query to retrieve all the transaction where the category is 'clothing' and 
+ the quantity sold is more than 4 in the month of Nov-2022 
           
-    ```sql       
+```sql       
 SELECT *
 FROM sales 
 WHERE category = 'clothing' 
