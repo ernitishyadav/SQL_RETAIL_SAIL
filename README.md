@@ -16,3 +16,8 @@ SQL queries</p>
   <li>Exploratry Database Analysis(EDA): Perform basic exploratry data analysis to understand the database</li>
   <li>Busniess analysis: SQL to answer the business query</li>
 </ol>
+
+## Creating database 
+```SQL
+CREATE DABASE IF NOT EXISTS retail_analysis;
+USE retail_analysis;
