@@ -81,7 +81,7 @@ WHERE
 	SET SQL_SAFE_UPDATES = 0;
 ```
 ##   -- DATA ANALYSIS AND FINDING INSIGHT
-<P>1 Write A sql query to retrive all columns for sale on made on '2022-11-05'</P>
+1 Write A sql query to retrive all columns for sale on made on '2022-11-05'
 ```SQL
                SELECT * FROM sales where sale_date = '2022-11-05';
 ```
